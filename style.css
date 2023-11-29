@@ -1,0 +1,15 @@
+.paragraph + p  {
+    color: red;
+}
+.paragraph-second + p {
+    color: blue;
+}
+
+
+.container ~ p {
+    color: red;
+}
+
+.container-second + p {
+    color: black;
+}
